@@ -10,7 +10,6 @@
     {
       "name": "Moga",
       "bundleIdentifier": "ninja.probably.Moga",
-      "marketplaceID": "1583300511",
       "developerName": "Sophia Tung",
       "subtitle": "A pretty nice manga reader if I do say so myself",
       "localizedDescription": "Moga is a manga reader app built to interface with MangaDex's vast library, with usability and gesture-based UX design at its core. You can:\n\n- Log in to your account\n- Follow/unfollow mangas\n- See recently updated mangas\n- Read anything from MangaDex's library (if available)\n- Set language/content preferences\n- And so on.\n\nBy default the app is in safe mode, but there is an nsfw-enabling mode",
