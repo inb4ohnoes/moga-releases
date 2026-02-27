@@ -24,9 +24,21 @@
           "https://i.imgur.com/Xl2M0vm.jpeg"
         ],
         "ipad": [
-          "https://i.imgur.com/aqxmK5D.jpeg",
-          "https://i.imgur.com/HydbXGX.jpeg",
-          "https://i.imgur.com/RraNiTw.jpeg"
+          {
+            "imageURL": "https://i.imgur.com/aqxmK5D.jpeg",
+            "width": 1668,
+            "height": 2388
+          },
+          {
+            "imageURL": "https://i.imgur.com/HydbXGX.jpeg",
+            "width": 1668,
+            "height": 2388
+          },
+          {
+            "imageURL": "https://i.imgur.com/RraNiTw.jpeg",
+            "width": 1668,
+            "height": 2388
+          }
         ]
       },
       "versions": [
