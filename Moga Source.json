@@ -1,0 +1,54 @@
+{
+  "name": "Moga Source",
+  "subtitle": "Official sideloading source for Moga",
+  "description": "This is the official sideloading source for Moga, a reader based on MangaDex. Use this if you don't want to deal with TestFlight. ",
+  "iconURL": "https://i.imgur.com/RT0MxSM.png",
+  "website": "https://moga.moe",
+  "patreonURL": "",
+  "tintColor": "#e28256",
+  "featuredApps": [
+    "ninja.probably.Moga"
+  ],
+  "apps": [
+    {
+      "name": "Moga",
+      "bundleIdentifier": "ninja.probably.Moga",
+      "marketplaceID": "1583300511",
+      "developerName": "Sophia Tung",
+      "subtitle": "A pretty nice manga reader if I do say so myself",
+      "localizedDescription": "Moga is a manga reader app built to interface with MangaDex's vast library, with usability and gesture-based UX design at its core. You can:\n\n- Log in to your account\n- Follow/unfollow mangas\n- See recently updated mangas\n- Read anything from MangaDex's library (if available)\n- Set language/content preferences\n- And so on.\n\nBy default the app is in safe mode, but there is an nsfw-enabling mode",
+      "iconURL": "https://i.imgur.com/V5anTF4.png",
+      "tintColor": "#e28256",
+      "category": "entertainment",
+      "screenshots": {
+        "iphone": [
+          "https://i.imgur.com/gc66avM.jpeg",
+          "https://i.imgur.com/w2a24J2.png",
+          "https://i.imgur.com/Xl2M0vm.jpeg"
+        ],
+        "ipad": [
+          "https://i.imgur.com/aqxmK5D.jpeg",
+          "https://i.imgur.com/HydbXGX.jpeg",
+          "https://i.imgur.com/RraNiTw.jpeg"
+        ]
+      },
+      "versions": [
+        {
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/Build-53/Moga.ipa",
+          "size": 5300000,
+          "version": "1.0",
+          "buildVersion": "53",
+          "date": "2026-02-27T09:06:00-08:00",
+          "localizedDescription": "First AltStore release attempt",
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
