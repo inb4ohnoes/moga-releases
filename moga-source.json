@@ -4,11 +4,8 @@
   "description": "This is the official sideloading source for Moga, a reader based on MangaDex. Use this if you don't want to deal with TestFlight. ",
   "iconURL": "https://i.imgur.com/RT0MxSM.png",
   "website": "https://moga.moe",
-  "patreonURL": "",
   "tintColor": "#e28256",
-  "featuredApps": [
-    "ninja.probably.Moga"
-  ],
+  "featuredApps": ["ninja.probably.Moga"],
   "apps": [
     {
       "name": "Moga",
