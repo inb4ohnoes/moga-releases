@@ -5,7 +5,10 @@
   "iconURL": "https://i.imgur.com/RT0MxSM.png",
   "website": "https://moga.moe",
   "tintColor": "#e28256",
-  "featuredApps": ["ninja.probably.Moga"],
+  "featuredApps": [
+    "ninja.probably.Moga"
+  ],
+  "headerURL": "https://i.imgur.com/0VlCk8A.png",
   "apps": [
     {
       "name": "Moga",
@@ -42,12 +45,12 @@
       },
       "versions": [
         {
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/Build-53/Moga.ipa",
-          "size": 5300000,
           "version": "1.0",
-          "buildVersion": "53",
-          "date": "2026-02-27T09:06:00-08:00",
-          "localizedDescription": "First AltStore release attempt",
+          "date": "2026-02-27T17:06:00-08:00",
+          "localizedDescription": "Many UI updates and crash fixes.",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release%2Fbuild-62/Moga.ipa",
+          "size": 5300000,
+          "buildVersion": "62",
           "minOSVersion": "26.0"
         }
       ],
