@@ -6,9 +6,7 @@
   "website": "https://moga.moe",
   "patreonURL": "",
   "tintColor": "#e28256",
-  "featuredApps": [
-    "ninja.probably.Moga"
-  ],
+  "featuredApps": ["ninja.probably.Moga"],
   "headerURL": "https://i.imgur.com/0VlCk8A.png",
   "apps": [
     {
@@ -17,7 +15,7 @@
       "marketplaceID": "1583300511",
       "developerName": "Sophia Tung",
       "subtitle": "A thoughtfully designed MangaDex client",
-      "localizedDescription": "Moga is a manga reader app built to interface with MangaDex's vast library, with usability and gesture-based UX design at its core. You can:\n\n- Read anything available in MangaDex's library directly\n- Log in to your account\n- Follow/unfollow mangas\n- See recently updated mangas you've followed\n- Easy pick-back-up shortcuts (client side)\n- Minimize/juggle two mangas at the same time (client side)\n- Set language/content preferences (client side)\n- And so on.\n\nThis app requires that you generate a private client ID to log in. See https://moga.moe for more info.\n\nBy default the app is in safe mode, but there is an nsfw-enabling mode if you go into About and tap the cats three times.",
+      "localizedDescription": "Moga is a manga reader app built to interface with MangaDex's vast library, with usability and gesture-based UX design at its core. You can:\n\n- Read anything available in MangaDex's library directly\n- Log in to your account\n- Follow/unfollow mangas\n- See recently updated mangas you've followed\n- Easy pick-back-up shortcuts (client side)\n- Minimize/juggle two mangas at the same time (client side)\n- Set language/content preferences (client side)\n- And so on.\n\nThis app requires that you generate a private client ID if you wish to log in. See https://moga.moe for more info.\n\nBy default the app is in safe mode, but there is an nsfw-enabling mode if you go into About and tap the cats three times.",
       "iconURL": "https://i.imgur.com/V5anTF4.png",
       "tintColor": "#e28256",
       "category": "entertainment",
