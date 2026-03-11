@@ -4,6 +4,7 @@
   "description": "This is the official AltStore PAL source for Moga, a manga reader client for MangaDex.",
   "iconURL": "https://i.imgur.com/RT0MxSM.png",
   "website": "https://moga.moe",
+  "fediUsername": "moga-pal",
   "tintColor": "#e28256",
   "featuredApps": ["ninja.probably.Moga"],
   "headerURL": "https://i.imgur.com/0VlCk8A.png",
