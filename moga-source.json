@@ -47,6 +47,15 @@
       "versions": [
         {
           "version": "1.1",
+          "date": "2026-03-26T23:32:55:z",
+          "localizedDescription": "# release/1.1-13\n\nChanges since release/1.1-12\n\n- 1.1 Build 13 (1d15b47, 2026-03-26)\n- Update distribution profile signing (0ec6a5f, 2026-03-26)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-13/Moga.ipa",
+          "size": 8696943,
+          "buildVersion": "13",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.1",
           "date": "2026-03-23T15:19:35:z",
           "localizedDescription": "# release/1.1-10\n\nChanges since release/1.1-9\n\n- 1.1 Build 10 (091dcbe, 2026-03-23)\n- Add localized bug report confirmation alert (cde17c9, 2026-03-23)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-10/Moga.ipa",
