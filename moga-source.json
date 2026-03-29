@@ -47,6 +47,15 @@
       "versions": [
         {
           "version": "1.1",
+          "date": "2026-03-29T03:53:28:z",
+          "localizedDescription": "# release/1.1-14\n\nChanges since release/1.1-13\n\n- 1.1 Build 14 (259bc45, 2026-03-28)\n- Update release workflow to use Xcode 26.4 (ff194d1, 2026-03-28)\n- Localize language names and fill missing UI translations (47ac65f, 2026-03-28)\n- Fix chapter read status not updating in chapters list after pull-to-advance (840ad0b, 2026-03-28)\n- Update footer sizing (049ec96, 2026-03-28)\n- Center cat footer image so it appears the same size in both scroll modes (b4d743c, 2026-03-29)\n- Show footer in horizontal paging mode; fix overscroll threshold (4b4da4e, 2026-03-29)\n- Apply content mode immediately when useAspectFitMode changes (7e5f00c, 2026-03-29)\n- Gate overscroll animation on canScrollAdvance in scrollViewDidScroll (587a11d, 2026-03-29)\n- Guard overscroll-advance state around scroll/reading direction switches (61fe3e3, 2026-03-29)\n- Hide Reading Direction in vertical mode; restore horizontal overscroll advance (38f811e, 2026-03-29)\n- Add horizontal paging mode and View Options menu to reader (0692086, 2026-03-28)\n- Reduce reader debug churn and clean up refresh timers (d3a8ce3, 2026-03-27)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-14/Moga.ipa",
+          "size": 8708341,
+          "buildVersion": "14",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.1",
           "date": "2026-03-26T23:32:55:z",
           "localizedDescription": "# release/1.1-13\n\nChanges since release/1.1-12\n\n- 1.1 Build 13 (1d15b47, 2026-03-26)\n- Update distribution profile signing (0ec6a5f, 2026-03-26)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-13/Moga.ipa",
