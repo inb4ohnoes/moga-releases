@@ -45,6 +45,15 @@
       },
       "versions": [
         {
+          "downloadURL": "https://netsoph.tofino.usbx.me/hosted/apps/moga/dc515d83-662f-4958-954b-f03e0dca2391/manifest.json",
+          "size": 4710652,
+          "version": "1.1",
+          "buildVersion": "15",
+          "date": "2026-04-08T07:19:12Z",
+          "localizedDescription": "Version 1.1 is a big update focused on discovery, reading improvements, and better personalization.\n\n- Added Advanced Search, including localized search UI\n- Added full MDLists support with a dedicated tab, detail views, creation flow, and context menu actions\n- Added Home Screen widgets for latest updates and home feed content, with deep linking support\n- Added a horizontal paging mode and new reader view options\n- Improved reader controls with better expand/collapse behavior, first-launch defaults, and smoother pull-to-next interactions\n- Expanded localization across the app, including more UI text and language names\n- Refreshed several parts of the interface, including About, Profile, loading indicators, onboarding motion, and manga detail layouts\n- Improved bug reporting with in-app access and confirmation messaging\n- Fixed issues with clipboard links, chapter read status updates, MDList refreshing, widget sizing/version mismatches, and other layout and stability problems",
+          "minOSVersion": "26.0"
+        },
+        {
           "downloadURL": "https://netsoph.tofino.usbx.me/hosted/apps/moga/116ef4e2-d3ca-449e-816a-578d19da8494/manifest.json",
           "size": 2500000,
           "version": "1.0.1",
