@@ -46,6 +46,15 @@
       "versions": [
         {
           "version": "1.2",
+          "date": "2026-04-11T14:17:47:z",
+          "localizedDescription": "# release/1.2-2\n\nChanges since release/1.2-1\n\n- 1.2 Build 2 (7b30f92, 2026-04-11)\n- Show downloaded manga details with offline metadata (e5c4c40, 2026-04-11)\n- Sort downloaded chapters before saving (6a3f2b0, 2026-04-11)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-2/Moga.ipa",
+          "size": 8822230,
+          "buildVersion": "2",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.2",
           "date": "2026-04-11T03:47:12:z",
           "localizedDescription": "# release/1.2-1\n\nChanges since release/1.1-15\n\n- 1.2 Build 1 (a47dd26, 2026-04-11)\n- Localize downloads and MangaDex status strings (0dbc540, 2026-04-11)\n- Add automatic downloads for new manga chapters (06e81bf, 2026-04-11)\n- Add setting to skip downloading read chapters (a00de12, 2026-04-11)\n- Show alert when no manga downloads are queued (653f02c, 2026-04-11)\n- Add download cancellation and chapter deduping (6f9daac, 2026-04-11)\n- Show download progress in Library and Downloads (090ee21, 2026-04-11)\n- Add download queue status and deletion support (5c2677a, 2026-04-11)\n- Offline mangas and downloading first pass (da50dc6, 2026-04-10)\n- Move chapter read status notifications into services (ef92998, 2026-04-10)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-1/Moga.ipa",
