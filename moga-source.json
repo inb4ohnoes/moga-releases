@@ -45,6 +45,15 @@
       },
       "versions": [
         {
+          "version": "1.2",
+          "date": "2026-04-11T03:47:12:z",
+          "localizedDescription": "# release/1.2-1\n\nChanges since release/1.1-15\n\n- 1.2 Build 1 (a47dd26, 2026-04-11)\n- Localize downloads and MangaDex status strings (0dbc540, 2026-04-11)\n- Add automatic downloads for new manga chapters (06e81bf, 2026-04-11)\n- Add setting to skip downloading read chapters (a00de12, 2026-04-11)\n- Show alert when no manga downloads are queued (653f02c, 2026-04-11)\n- Add download cancellation and chapter deduping (6f9daac, 2026-04-11)\n- Show download progress in Library and Downloads (090ee21, 2026-04-11)\n- Add download queue status and deletion support (5c2677a, 2026-04-11)\n- Offline mangas and downloading first pass (da50dc6, 2026-04-10)\n- Move chapter read status notifications into services (ef92998, 2026-04-10)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-1/Moga.ipa",
+          "size": 8812863,
+          "buildVersion": "1",
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "1.1",
           "date": "2026-04-04T15:20:41:z",
           "localizedDescription": "# release/1.1-15\n\nChanges since release/1.1-13\n\n- 1.1 Build 15 (da2926a, 2026-04-04)\n- Fix About header relayout after presentation (d2d9d33, 2026-04-04)\n- Restore Profile cell highlight behavior (bb7a916, 2026-04-04)\n- Fix status view footer layout and cache components (473a6b7, 2026-04-04)\n- Move folder (3ce8c52, 2026-04-04)\n- Refactor distinct classes into separate files (a8e06ba, 2026-04-04)\n- Native status API display first pass (d2a144e, 2026-04-04)\n- Set default reader preferences for first launch (2df7a04, 2026-03-30)\n- 1.1 Build 14 (f7781e9, 2026-03-29)\n- Localize language names and fill missing UI translations (47ac65f, 2026-03-28)\n- Fix chapter read status not updating in chapters list after pull-to-advance (840ad0b, 2026-03-28)\n- Update footer sizing (049ec96, 2026-03-28)\n- Center cat footer image so it appears the same size in both scroll modes (b4d743c, 2026-03-29)\n- Show footer in horizontal paging mode; fix overscroll threshold (4b4da4e, 2026-03-29)\n- Apply content mode immediately when useAspectFitMode changes (7e5f00c, 2026-03-29)\n- Gate overscroll animation on canScrollAdvance in scrollViewDidScroll (587a11d, 2026-03-29)\n- Guard overscroll-advance state around scroll/reading direction switches (61fe3e3, 2026-03-29)\n- Hide Reading Direction in vertical mode; restore horizontal overscroll advance (38f811e, 2026-03-29)\n- Add horizontal paging mode and View Options menu to reader (0692086, 2026-03-28)\n- Reduce reader debug churn and clean up refresh timers (d3a8ce3, 2026-03-27)",
@@ -114,15 +123,6 @@
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.0.1-3/Moga.ipa",
           "size": 6190415,
           "buildVersion": "3",
-          "minOSVersion": "26.0"
-        },
-        {
-          "version": "1.0.1",
-          "date": "2026-03-08T16:56:55:z",
-          "localizedDescription": "# release/1.0.1-1\n\nChanges since release/build-62\n\n- 1.0.1 Build 1 (44557b5, 2026-03-08)\n- Add AltStore moga-source.json update to iOS release workflow (4918643, 2026-03-08)\n- Style home section caret with circular pill container (a0fe1a3, 2026-03-06)\n- Fix crash when parsing MangaDex JSON responses (3a38b03, 2026-03-06)\n- Guard JSON parsing against nil response data in services manager (47455ac, 2026-03-06)\n- Refactor Home collection views to diffable data sources (4f8d60c, 2026-03-06)\n- Delay Pick Back Up load until home data is available (ddfa4a4, 2026-03-04)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.0.1-1/Moga.ipa",
-          "size": 5908737,
-          "buildVersion": "1",
           "minOSVersion": "26.0"
         },
         {
