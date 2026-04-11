@@ -45,7 +45,7 @@
       },
       "versions": [
         {
-          "downloadURL": "https://netsoph.tofino.usbx.me/hosted/apps/moga/dc515d83-662f-4958-954b-f03e0dca2391/manifest.json",
+          "downloadURL": "https://assets.moga.moe/builds/dc515d83-662f-4958-954b-f03e0dca2391/manifest.json",
           "size": 4710652,
           "version": "1.1",
           "buildVersion": "15",
@@ -54,7 +54,7 @@
           "minOSVersion": "26.0"
         },
         {
-          "downloadURL": "https://netsoph.tofino.usbx.me/hosted/apps/moga/116ef4e2-d3ca-449e-816a-578d19da8494/manifest.json",
+          "downloadURL": "https://assets.moga.moe/builds/116ef4e2-d3ca-449e-816a-578d19da8494/manifest.json",
           "size": 2500000,
           "version": "1.0.1",
           "buildVersion": "5",
@@ -63,7 +63,7 @@
           "minOSVersion": "26.0"
         },
         {
-          "downloadURL": "https://netsoph.tofino.usbx.me/hosted/apps/moga/a5e4d194-1e9e-4f84-b64f-84889543666a/manifest.json",
+          "downloadURL": "https://assets.moga.moe/builds/a5e4d194-1e9e-4f84-b64f-84889543666a/manifest.json",
           "size": 2300000,
           "version": "1.0",
           "buildVersion": "62",
