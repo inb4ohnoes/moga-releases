@@ -46,6 +46,15 @@
       "versions": [
         {
           "version": "1.2",
+          "date": "2026-04-18T16:15:05:z",
+          "localizedDescription": "# release/1.2-5\n\nChanges since release/1.2-4\n\n- 1.2 Build 5 (942060e, 2026-04-18)\n- Update download manager for parallel pages and rate-limit retries (2bfea7a, 2026-04-18)\n- Add MangaDex startup issue alert (5cf61b0, 2026-04-18)\n- Harden MangaDex login and refresh handling (53af09e, 2026-04-13)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-5/Moga.ipa",
+          "size": 8853414,
+          "buildVersion": "5",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.2",
           "date": "2026-04-13T13:15:43:z",
           "localizedDescription": "# release/1.2-4\n\nChanges since release/1.2-3\n\n- 1.2 Build 4 (1470626, 2026-04-13)\n- Fix login view SDK warnings (ee0aea6, 2026-04-13)\n- Improve logged-out and login UX (f46ec77, 2026-04-13)\n- Localize remaining static download and status UI strings (5a3eb4e, 2026-04-12)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-4/Moga.ipa",
@@ -123,15 +132,6 @@
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-9/Moga.ipa",
           "size": 8463957,
           "buildVersion": "9",
-          "minOSVersion": "26.0"
-        },
-        {
-          "version": "1.0.1",
-          "date": "2026-03-12T15:29:04:z",
-          "localizedDescription": "# release/1.0.1-5\n\nChanges since release/1.0.1-4\n\n- 1.0.1 Build 5 (5ba0eec, 2026-03-12)\n- Fix pull-up-read not resetting on iPad (3ad6c67, 2026-03-12)\n- Fix Home chapter segue for Pick Back Up (5abab8b, 2026-03-12)\n- Use high-resolution icon on onboarding screen (3d5ce92, 2026-03-12)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.0.1-5/Moga.ipa",
-          "size": 6325965,
-          "buildVersion": "5",
           "minOSVersion": "26.0"
         },
         {
