@@ -46,6 +46,15 @@
       "versions": [
         {
           "version": "1.2",
+          "date": "2026-04-23T03:46:13:z",
+          "localizedDescription": "# release/1.2-6\n\nChanges since release/1.2-5\n\n- 1.2 Build 6 (d9219e1, 2026-04-23)\n- Refactor downloads queued row layout (245611f, 2026-04-23)\n- Fix downloaded manga transition (b8d043f, 2026-04-23)\n- Add infinite manga search pagination (da9e8a1, 2026-04-23)\n- Align startup MangaDex alert with profile status (d0722d9, 2026-04-21)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-6/Moga.ipa",
+          "size": 8860966,
+          "buildVersion": "6",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.2",
           "date": "2026-04-18T16:15:05:z",
           "localizedDescription": "# release/1.2-5\n\nChanges since release/1.2-4\n\n- 1.2 Build 5 (942060e, 2026-04-18)\n- Update download manager for parallel pages and rate-limit retries (2bfea7a, 2026-04-18)\n- Add MangaDex startup issue alert (5cf61b0, 2026-04-18)\n- Harden MangaDex login and refresh handling (53af09e, 2026-04-13)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-5/Moga.ipa",
