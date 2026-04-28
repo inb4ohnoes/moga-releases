@@ -46,6 +46,15 @@
       "versions": [
         {
           "version": "1.2",
+          "date": "2026-04-28T03:40:52:z",
+          "localizedDescription": "# release/1.2-9\n\nChanges since release/1.2-8\n\n- 1.2 Build 9 (153d3b4, 2026-04-28)\n- Smooth out pinch-zoom edge cases in the reader (80084f9, 2026-04-28)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-9/Moga.ipa",
+          "size": 8921991,
+          "buildVersion": "9",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.2",
           "date": "2026-04-28T02:59:25:z",
           "localizedDescription": "# release/1.2-8\n\nChanges since release/1.2-7\n\n- 1.2 Build 8 (fa55901, 2026-04-28)\n- Anchor opening pinch transition image to live touches (f7876af, 2026-04-28)\n- Preserve live pinch geometry in reader page viewer (f2d3fd3, 2026-04-28)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-8/Moga.ipa",
@@ -150,15 +159,6 @@
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-10/Moga.ipa",
           "size": 8466057,
           "buildVersion": "10",
-          "minOSVersion": "26.0"
-        },
-        {
-          "version": "1.1",
-          "date": "2026-03-23T03:56:58:z",
-          "localizedDescription": "# release/1.1-9\n\nChanges since release/1.1-8\n\n- 1.1 Build 9 (8fe21f1, 2026-03-23)\n- Pass release PAT via action token input (d32bbeb, 2026-03-23)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-9/Moga.ipa",
-          "size": 8463957,
-          "buildVersion": "9",
           "minOSVersion": "26.0"
         },
         {
