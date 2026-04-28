@@ -46,6 +46,15 @@
       "versions": [
         {
           "version": "1.2",
+          "date": "2026-04-28T02:59:25:z",
+          "localizedDescription": "# release/1.2-8\n\nChanges since release/1.2-7\n\n- 1.2 Build 8 (fa55901, 2026-04-28)\n- Anchor opening pinch transition image to live touches (f7876af, 2026-04-28)\n- Preserve live pinch geometry in reader page viewer (f2d3fd3, 2026-04-28)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-8/Moga.ipa",
+          "size": 8919222,
+          "buildVersion": "8",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.2",
           "date": "2026-04-27T19:19:39:z",
           "localizedDescription": "# release/1.2-7\n\nChanges since release/1.2-6\n\n- 1.2 Build 7 (2f13d21, 2026-04-28)\n- Add login error details (ac95db6, 2026-04-28)\n- Update empty chapters state (82fed90, 2026-04-28)\n- Fix pinch gesture snapping sometimes (cdd8316, 2026-04-28)\n- Update thresholds and zoom interaction (5cf1511, 2026-04-28)\n- Update pinch zoom transition with new logic so it does less hard snapping on pinch gesture release (still does it sometimes though). (56a7ab5, 2026-04-27)\n- Refine interactive pinch zoom transition (a78c886, 2026-04-27)\n- Refine page viewer dismiss drag physics (436d963, 2026-04-27)\n- Use interruptible property animators for page zoom (ad40c9b, 2026-04-27)\n- Fix reader page viewer transition recursion (bd935a6, 2026-04-27)\n- Sync downloaded read statuses offline (cae0fd0, 2026-04-26)\n- Add Library sort and filter menu (89e0a9e, 2026-04-26)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-7/Moga.ipa",
