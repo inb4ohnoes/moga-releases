@@ -49,11 +49,11 @@
         {
           "version": "1.2",
           "buildVersion": "9",
-          "date": "2026-05-01T01:25:36-07:00",
+          "date": "2026-05-01T01:32:41-07:00",
           "downloadURL": "https://assets.moga.moe/builds/0e629d68-93f7-4252-9c2e-ef033e814ba6/manifest.json",
           "size": 8921991,
           "minOSVersion": "26.0",
-          "localizedDescription": "Version 1.2 brings offline reading, library organization, and a smoother reader experience.  - Added automatic chapter downloads for manga you follow, with offline reading support - Added a download queue with progress tracking, cancellation, and deletion - Added an option to skip downloading chapters you've already read - Added Library sort and filter options - Added infinite scroll to manga search results - Improved pinch-to-zoom in the reader with smoother physics and better edge case handling - Improved logged-out state and login flow UX - Added a MangaDex connectivity check on startup - Hardened login session and token refresh handling - Localized more UI text across downloads and status views - Fixed crashes when reading or syncing read status offline - Fixed pinch gesture occasionally snapping in the reader - Fixed downloaded manga detail view transition - Fixed login view SDK warnings"
+          "localizedDescription": "Version 1.2 brings offline reading, library organization, and a smoother reader experience.\\n\\n- Added automatic chapter downloads for manga you follow, with offline reading support\\n- Added a download queue with progress tracking, cancellation, and deletion\\n- Added an option to skip downloading chapters you've already read\\n- Added Library sort and filter options\\n- Added infinite scroll to manga search results\\n- Improved pinch-to-zoom in the reader with smoother physics and better edge case handling\\n- Improved logged-out state and login flow UX\\n- Added a MangaDex connectivity check on startup\\n- Hardened login session and token refresh handling\\n- Localized more UI text across downloads and status views\\n- Fixed crashes when reading or syncing read status offline\\n- Fixed pinch gesture occasionally snapping in the reader\\n- Fixed downloaded manga detail view transition\\n- Fixed login view SDK warnings"
         },
         {
           "downloadURL": "https://assets.moga.moe/builds/dc515d83-662f-4958-954b-f03e0dca2391/manifest.json",
