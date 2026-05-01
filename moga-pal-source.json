@@ -6,7 +6,9 @@
   "website": "https://moga.moe",
   "fediUsername": "moga",
   "tintColor": "#e28256",
-  "featuredApps": ["ninja.probably.Moga"],
+  "featuredApps": [
+    "ninja.probably.Moga"
+  ],
   "headerURL": "https://i.imgur.com/0VlCk8A.png",
   "apps": [
     {
@@ -44,6 +46,15 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.2",
+          "buildVersion": "9",
+          "date": "2026-05-01T01:03:07-07:00",
+          "downloadURL": "https://assets.moga.moe/builds/0e629d68-93f7-4252-9c2e-ef033e814ba6/manifest.json",
+          "size": 8921991,
+          "minOSVersion": "26.0",
+          "localizedDescription": "Version 1.2 brings offline reading, library organization, and a smoother reader.  **New** - Download manga chapters automatically and read them offline - Manage your download queue with progress tracking, cancellation, and deletion - Optionally skip downloading chapters you've already read - Sort and filter your Library - Infinite scroll in manga search results  **Improvements** - Pinch-to-zoom in the reader is smoother with better physics and edge case handling - Better logged-out state and login flow UX - MangaDex connectivity check on startup - Hardened login session and token refresh handling - More localized UI text across downloads and status views  **Bug Fixes** - Fixed crashes when reading or syncing read status offline - Fixed pinch gesture occasionally snapping in the reader - Fixed downloaded manga detail view transition - Fixed login view SDK warnings"
+        },
         {
           "downloadURL": "https://assets.moga.moe/builds/dc515d83-662f-4958-954b-f03e0dca2391/manifest.json",
           "size": 4710652,
