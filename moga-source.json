@@ -46,6 +46,15 @@
       "versions": [
         {
           "version": "1.2.1",
+          "date": "2026-05-24T22:59:17:z",
+          "localizedDescription": "# release/1.2.1-2\n\nChanges since release/1.2.1-1\n\n- 1.2.1 Build 2 (b508ed3, 2026-05-24)\n- Prefer non-external chapters when starting or advancing (079bb4c, 2026-05-24)\n- Align chapter read indicator in download selection mode (7b4639e, 2026-05-24)\n- Localize chapter posted time ago label (fea11cc, 2026-05-24)\n- Scroll chapter list to current chapter (528b110, 2026-05-21)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.1-2/Moga.ipa",
+          "size": 8930320,
+          "buildVersion": "2",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.2.1",
           "date": "2026-05-10T07:55:33:z",
           "localizedDescription": "# release/1.2.1-1\n\nChanges since release/1.2-9\n\n- 1.2.1 Build 1 (2352bca, 2026-05-10)\n- Add japanese chapter language support (7783d6d, 2026-05-10)\n- Add AGENTS.md project guide (cef9d95, 2026-05-05)\n- Fix \\n double-escaping in PAL source workflow (4ad1bab, 2026-05-01)\n- Fix release notes newline preservation in PAL source workflow (906bf77, 2026-05-01)\n- Update PAL source workflow release notes description (3fd9bd5, 2026-05-01)\n- Add Update AltStore PAL Source workflow (8768d11, 2026-05-01)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.1-1/Moga.ipa",
@@ -114,15 +123,6 @@
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-3/Moga.ipa",
           "size": 8822715,
           "buildVersion": "3",
-          "minOSVersion": "26.0"
-        },
-        {
-          "version": "1.2",
-          "date": "2026-04-11T14:17:47:z",
-          "localizedDescription": "# release/1.2-2\n\nChanges since release/1.2-1\n\n- 1.2 Build 2 (7b30f92, 2026-04-11)\n- Show downloaded manga details with offline metadata (e5c4c40, 2026-04-11)\n- Sort downloaded chapters before saving (6a3f2b0, 2026-04-11)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-2/Moga.ipa",
-          "size": 8822230,
-          "buildVersion": "2",
           "minOSVersion": "26.0"
         },
         {
