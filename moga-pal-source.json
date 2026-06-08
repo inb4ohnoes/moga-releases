@@ -47,6 +47,15 @@
       },
       "versions": [
         {
+          "version": "1.2.1",
+          "buildVersion": "3",
+          "date": "2026-06-08T10:10:03-07:00",
+          "downloadURL": "https://assets.moga.moe/builds/14740344-8702-4332-874e-f9ea35dc93d7/manifest.json",
+          "size": 8936406,
+          "minOSVersion": "26.0",
+          "localizedDescription": "Version 1.2.1 adds quality-of-life improvements across the library and reader.\n\n- Added Japanese chapter language support\n- Added Library sorting by popularity\n- Improved chapter navigation by scrolling to the current chapter and preferring non-external chapters\n- Localized chapter posted-time labels\n- Improved chapter read indicator alignment in download selection mode\n- Replaced the loading indicator\n- Stopped carousel auto-scroll after user interaction"
+        },
+        {
           "version": "1.2",
           "buildVersion": "9",
           "date": "2026-05-01T01:40:04-07:00",
