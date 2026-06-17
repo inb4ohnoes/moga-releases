@@ -45,6 +45,15 @@
       },
       "versions": [
         {
+          "version": "1.2.2",
+          "date": "2026-06-17T14:23:49:z",
+          "localizedDescription": "# release/1.2.2-1\n\nChanges since release/1.2.1-3\n\n- 1.2.2 Build 1 (d4ccd6d, 2026-06-17)\n- Fix Curry sleep loader Lottie rendering (d3f3c39, 2026-06-17)\n- Use CurrySleepLoading Lottie loader everywhere; rename to MGCurrySleepLoader (56e9c81, 2026-06-17)\n- Let Siri resolve any followed manga by name (c50fc79, 2026-06-10)\n- Make Siri updates intent snapshot-first to fit Siri's time budget (9a39a1a, 2026-06-10)\n- Add Siri App Intents for latest chapter updates (dd13360, 2026-06-10)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.2-1/Moga.ipa",
+          "size": 9042949,
+          "buildVersion": "1",
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "1.2.1",
           "date": "2026-06-08T00:26:19:z",
           "localizedDescription": "# release/1.2.1-3\n\nChanges since release/1.2.1-2\n\n- 1.2.1 Build 3 (b930b08, 2026-06-08)\n- Add library popularity sort (f8849e4, 2026-05-31)\n- Replace the loading pill Lottie indicator (32d2670, 2026-05-30)\n- Disable carousel auto-scroll after user interaction (63963aa, 2026-05-30)",
@@ -60,15 +69,6 @@
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.1-2/Moga.ipa",
           "size": 8930320,
           "buildVersion": "2",
-          "minOSVersion": "26.0"
-        },
-        {
-          "version": "1.2.1",
-          "date": "2026-05-10T07:55:33:z",
-          "localizedDescription": "# release/1.2.1-1\n\nChanges since release/1.2-9\n\n- 1.2.1 Build 1 (2352bca, 2026-05-10)\n- Add japanese chapter language support (7783d6d, 2026-05-10)\n- Add AGENTS.md project guide (cef9d95, 2026-05-05)\n- Fix \\n double-escaping in PAL source workflow (4ad1bab, 2026-05-01)\n- Fix release notes newline preservation in PAL source workflow (906bf77, 2026-05-01)\n- Update PAL source workflow release notes description (3fd9bd5, 2026-05-01)\n- Add Update AltStore PAL Source workflow (8768d11, 2026-05-01)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.1-1/Moga.ipa",
-          "size": 8922125,
-          "buildVersion": "1",
           "minOSVersion": "26.0"
         },
         {
