@@ -1,181 +1,187 @@
 {
-  "name": "Moga Source",
-  "subtitle": "Official sideloading source for Moga, a manga reader client for MangaDex",
-  "description": "This is the official sideloading source for Moga, a manga reader client for MangaDex. Use this if you don't want to deal with TestFlight. ",
-  "iconURL": "https://i.imgur.com/RT0MxSM.png",
-  "website": "https://moga.moe",
-  "tintColor": "#e28256",
-  "featuredApps": [
-    "ninja.probably.Moga"
-  ],
-  "headerURL": "https://i.imgur.com/0VlCk8A.png",
-  "apps": [
+  "apps" : [
     {
-      "name": "Moga",
-      "bundleIdentifier": "ninja.probably.Moga",
-      "developerName": "Sophia Tung",
-      "subtitle": "A pretty nice manga reader if I do say so myself",
-      "localizedDescription": "Moga is a manga reader app built to interface with MangaDex's vast library, with usability and gesture-based UX design at its core.\n\n- Read anything available in MangaDex's library directly\n- Log in to your account\n- Follow/unfollow mangas\n- See recently updated mangas you've followed\n- Easy pick-back-up shortcuts (client side)\n- Minimize/juggle two mangas at the same time (client side)\n- Set language/content preferences (client side)\n- And so on.\n\nThis app requires that you generate a private client ID if you wish to log in. See https://moga.moe for more info.",
-      "iconURL": "https://i.imgur.com/V5anTF4.png",
-      "tintColor": "#e28256",
-      "category": "entertainment",
-      "screenshots": {
-        "iphone": [
+      "appPermissions" : {
+        "entitlements" : [
+
+        ],
+        "privacy" : {
+
+        }
+      },
+      "bundleIdentifier" : "ninja.probably.Moga",
+      "category" : "entertainment",
+      "developerName" : "Sophia Tung",
+      "iconURL" : "https://assets.moga.moe/source-assets/Icon.png",
+      "localizedDescription" : "Moga is a manga reader app built to interface with MangaDex's vast library, with usability and gesture-based UX design at its core.\n\n- Read anything available in MangaDex's library directly\n- Log in to your account\n- Follow/unfollow mangas\n- See recently updated mangas you've followed\n- Easy pick-back-up shortcuts (client side)\n- Minimize/juggle two mangas at the same time (client side)\n- Set language/content preferences (client side)\n- And so on.\n\nThis app requires that you generate a private client ID if you wish to log in. See https://moga.moe for more info.",
+      "name" : "Moga",
+      "screenshots" : {
+        "ipad" : [
+          {
+            "height" : 2388,
+            "imageURL" : "https://i.imgur.com/aqxmK5D.jpeg",
+            "width" : 1668
+          },
+          {
+            "height" : 2388,
+            "imageURL" : "https://i.imgur.com/HydbXGX.jpeg",
+            "width" : 1668
+          },
+          {
+            "height" : 2388,
+            "imageURL" : "https://i.imgur.com/RraNiTw.jpeg",
+            "width" : 1668
+          }
+        ],
+        "iphone" : [
           "https://i.imgur.com/gc66avM.jpeg",
           "https://i.imgur.com/w2a24J2.png",
           "https://i.imgur.com/Xl2M0vm.jpeg"
-        ],
-        "ipad": [
-          {
-            "imageURL": "https://i.imgur.com/aqxmK5D.jpeg",
-            "width": 1668,
-            "height": 2388
-          },
-          {
-            "imageURL": "https://i.imgur.com/HydbXGX.jpeg",
-            "width": 1668,
-            "height": 2388
-          },
-          {
-            "imageURL": "https://i.imgur.com/RraNiTw.jpeg",
-            "width": 1668,
-            "height": 2388
-          }
         ]
       },
-      "versions": [
+      "subtitle" : "A pretty nice manga reader if I do say so myself",
+      "tintColor" : "#e28256",
+      "versions" : [
         {
-          "version": "1.2.2",
-          "date": "2026-06-17T14:23:49:z",
-          "localizedDescription": "# release/1.2.2-1\n\nChanges since release/1.2.1-3\n\n- 1.2.2 Build 1 (d4ccd6d, 2026-06-17)\n- Fix Curry sleep loader Lottie rendering (d3f3c39, 2026-06-17)\n- Use CurrySleepLoading Lottie loader everywhere; rename to MGCurrySleepLoader (56e9c81, 2026-06-17)\n- Let Siri resolve any followed manga by name (c50fc79, 2026-06-10)\n- Make Siri updates intent snapshot-first to fit Siri's time budget (9a39a1a, 2026-06-10)\n- Add Siri App Intents for latest chapter updates (dd13360, 2026-06-10)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.2-1/Moga.ipa",
-          "size": 9042949,
-          "buildVersion": "1",
-          "minOSVersion": "26.0"
+          "buildVersion" : "1",
+          "date" : "2026-06-17T14:23:49:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.2-1/Moga.ipa",
+          "localizedDescription" : "# release/1.2.2-1\n\nChanges since release/1.2.1-3\n\n- 1.2.2 Build 1 (d4ccd6d, 2026-06-17)\n- Fix Curry sleep loader Lottie rendering (d3f3c39, 2026-06-17)\n- Use CurrySleepLoading Lottie loader everywhere; rename to MGCurrySleepLoader (56e9c81, 2026-06-17)\n- Let Siri resolve any followed manga by name (c50fc79, 2026-06-10)\n- Make Siri updates intent snapshot-first to fit Siri's time budget (9a39a1a, 2026-06-10)\n- Add Siri App Intents for latest chapter updates (dd13360, 2026-06-10)",
+          "minOSVersion" : "26.0",
+          "size" : 9042949,
+          "version" : "1.2.2"
         },
         {
-          "version": "1.2.1",
-          "date": "2026-06-08T00:26:19:z",
-          "localizedDescription": "# release/1.2.1-3\n\nChanges since release/1.2.1-2\n\n- 1.2.1 Build 3 (b930b08, 2026-06-08)\n- Add library popularity sort (f8849e4, 2026-05-31)\n- Replace the loading pill Lottie indicator (32d2670, 2026-05-30)\n- Disable carousel auto-scroll after user interaction (63963aa, 2026-05-30)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.1-3/Moga.ipa",
-          "size": 8936406,
-          "buildVersion": "3",
-          "minOSVersion": "26.0"
+          "buildVersion" : "3",
+          "date" : "2026-06-08T00:26:19:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.1-3/Moga.ipa",
+          "localizedDescription" : "# release/1.2.1-3\n\nChanges since release/1.2.1-2\n\n- 1.2.1 Build 3 (b930b08, 2026-06-08)\n- Add library popularity sort (f8849e4, 2026-05-31)\n- Replace the loading pill Lottie indicator (32d2670, 2026-05-30)\n- Disable carousel auto-scroll after user interaction (63963aa, 2026-05-30)",
+          "minOSVersion" : "26.0",
+          "size" : 8936406,
+          "version" : "1.2.1"
         },
         {
-          "version": "1.2.1",
-          "date": "2026-05-24T22:59:17:z",
-          "localizedDescription": "# release/1.2.1-2\n\nChanges since release/1.2.1-1\n\n- 1.2.1 Build 2 (b508ed3, 2026-05-24)\n- Prefer non-external chapters when starting or advancing (079bb4c, 2026-05-24)\n- Align chapter read indicator in download selection mode (7b4639e, 2026-05-24)\n- Localize chapter posted time ago label (fea11cc, 2026-05-24)\n- Scroll chapter list to current chapter (528b110, 2026-05-21)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.1-2/Moga.ipa",
-          "size": 8930320,
-          "buildVersion": "2",
-          "minOSVersion": "26.0"
+          "buildVersion" : "2",
+          "date" : "2026-05-24T22:59:17:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.1-2/Moga.ipa",
+          "localizedDescription" : "# release/1.2.1-2\n\nChanges since release/1.2.1-1\n\n- 1.2.1 Build 2 (b508ed3, 2026-05-24)\n- Prefer non-external chapters when starting or advancing (079bb4c, 2026-05-24)\n- Align chapter read indicator in download selection mode (7b4639e, 2026-05-24)\n- Localize chapter posted time ago label (fea11cc, 2026-05-24)\n- Scroll chapter list to current chapter (528b110, 2026-05-21)",
+          "minOSVersion" : "26.0",
+          "size" : 8930320,
+          "version" : "1.2.1"
         },
         {
-          "version": "1.2",
-          "date": "2026-04-28T03:40:52:z",
-          "localizedDescription": "# release/1.2-9\n\nChanges since release/1.2-8\n\n- 1.2 Build 9 (153d3b4, 2026-04-28)\n- Smooth out pinch-zoom edge cases in the reader (80084f9, 2026-04-28)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-9/Moga.ipa",
-          "size": 8921991,
-          "buildVersion": "9",
-          "minOSVersion": "26.0"
+          "buildVersion" : "9",
+          "date" : "2026-04-28T03:40:52:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-9/Moga.ipa",
+          "localizedDescription" : "# release/1.2-9\n\nChanges since release/1.2-8\n\n- 1.2 Build 9 (153d3b4, 2026-04-28)\n- Smooth out pinch-zoom edge cases in the reader (80084f9, 2026-04-28)",
+          "minOSVersion" : "26.0",
+          "size" : 8921991,
+          "version" : "1.2"
         },
         {
-          "version": "1.2",
-          "date": "2026-04-28T02:59:25:z",
-          "localizedDescription": "# release/1.2-8\n\nChanges since release/1.2-7\n\n- 1.2 Build 8 (fa55901, 2026-04-28)\n- Anchor opening pinch transition image to live touches (f7876af, 2026-04-28)\n- Preserve live pinch geometry in reader page viewer (f2d3fd3, 2026-04-28)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-8/Moga.ipa",
-          "size": 8919222,
-          "buildVersion": "8",
-          "minOSVersion": "26.0"
+          "buildVersion" : "8",
+          "date" : "2026-04-28T02:59:25:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-8/Moga.ipa",
+          "localizedDescription" : "# release/1.2-8\n\nChanges since release/1.2-7\n\n- 1.2 Build 8 (fa55901, 2026-04-28)\n- Anchor opening pinch transition image to live touches (f7876af, 2026-04-28)\n- Preserve live pinch geometry in reader page viewer (f2d3fd3, 2026-04-28)",
+          "minOSVersion" : "26.0",
+          "size" : 8919222,
+          "version" : "1.2"
         },
         {
-          "version": "1.2",
-          "date": "2026-04-27T19:19:39:z",
-          "localizedDescription": "# release/1.2-7\n\nChanges since release/1.2-6\n\n- 1.2 Build 7 (2f13d21, 2026-04-28)\n- Add login error details (ac95db6, 2026-04-28)\n- Update empty chapters state (82fed90, 2026-04-28)\n- Fix pinch gesture snapping sometimes (cdd8316, 2026-04-28)\n- Update thresholds and zoom interaction (5cf1511, 2026-04-28)\n- Update pinch zoom transition with new logic so it does less hard snapping on pinch gesture release (still does it sometimes though). (56a7ab5, 2026-04-27)\n- Refine interactive pinch zoom transition (a78c886, 2026-04-27)\n- Refine page viewer dismiss drag physics (436d963, 2026-04-27)\n- Use interruptible property animators for page zoom (ad40c9b, 2026-04-27)\n- Fix reader page viewer transition recursion (bd935a6, 2026-04-27)\n- Sync downloaded read statuses offline (cae0fd0, 2026-04-26)\n- Add Library sort and filter menu (89e0a9e, 2026-04-26)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-7/Moga.ipa",
-          "size": 8913739,
-          "buildVersion": "7",
-          "minOSVersion": "26.0"
+          "buildVersion" : "7",
+          "date" : "2026-04-27T19:19:39:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-7/Moga.ipa",
+          "localizedDescription" : "# release/1.2-7\n\nChanges since release/1.2-6\n\n- 1.2 Build 7 (2f13d21, 2026-04-28)\n- Add login error details (ac95db6, 2026-04-28)\n- Update empty chapters state (82fed90, 2026-04-28)\n- Fix pinch gesture snapping sometimes (cdd8316, 2026-04-28)\n- Update thresholds and zoom interaction (5cf1511, 2026-04-28)\n- Update pinch zoom transition with new logic so it does less hard snapping on pinch gesture release (still does it sometimes though). (56a7ab5, 2026-04-27)\n- Refine interactive pinch zoom transition (a78c886, 2026-04-27)\n- Refine page viewer dismiss drag physics (436d963, 2026-04-27)\n- Use interruptible property animators for page zoom (ad40c9b, 2026-04-27)\n- Fix reader page viewer transition recursion (bd935a6, 2026-04-27)\n- Sync downloaded read statuses offline (cae0fd0, 2026-04-26)\n- Add Library sort and filter menu (89e0a9e, 2026-04-26)",
+          "minOSVersion" : "26.0",
+          "size" : 8913739,
+          "version" : "1.2"
         },
         {
-          "version": "1.2",
-          "date": "2026-04-23T03:46:13:z",
-          "localizedDescription": "# release/1.2-6\n\nChanges since release/1.2-5\n\n- 1.2 Build 6 (d9219e1, 2026-04-23)\n- Refactor downloads queued row layout (245611f, 2026-04-23)\n- Fix downloaded manga transition (b8d043f, 2026-04-23)\n- Add infinite manga search pagination (da9e8a1, 2026-04-23)\n- Align startup MangaDex alert with profile status (d0722d9, 2026-04-21)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-6/Moga.ipa",
-          "size": 8860966,
-          "buildVersion": "6",
-          "minOSVersion": "26.0"
+          "buildVersion" : "6",
+          "date" : "2026-04-23T03:46:13:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-6/Moga.ipa",
+          "localizedDescription" : "# release/1.2-6\n\nChanges since release/1.2-5\n\n- 1.2 Build 6 (d9219e1, 2026-04-23)\n- Refactor downloads queued row layout (245611f, 2026-04-23)\n- Fix downloaded manga transition (b8d043f, 2026-04-23)\n- Add infinite manga search pagination (da9e8a1, 2026-04-23)\n- Align startup MangaDex alert with profile status (d0722d9, 2026-04-21)",
+          "minOSVersion" : "26.0",
+          "size" : 8860966,
+          "version" : "1.2"
         },
         {
-          "version": "1.2",
-          "date": "2026-04-18T16:15:05:z",
-          "localizedDescription": "# release/1.2-5\n\nChanges since release/1.2-4\n\n- 1.2 Build 5 (942060e, 2026-04-18)\n- Update download manager for parallel pages and rate-limit retries (2bfea7a, 2026-04-18)\n- Add MangaDex startup issue alert (5cf61b0, 2026-04-18)\n- Harden MangaDex login and refresh handling (53af09e, 2026-04-13)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-5/Moga.ipa",
-          "size": 8853414,
-          "buildVersion": "5",
-          "minOSVersion": "26.0"
+          "buildVersion" : "5",
+          "date" : "2026-04-18T16:15:05:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-5/Moga.ipa",
+          "localizedDescription" : "# release/1.2-5\n\nChanges since release/1.2-4\n\n- 1.2 Build 5 (942060e, 2026-04-18)\n- Update download manager for parallel pages and rate-limit retries (2bfea7a, 2026-04-18)\n- Add MangaDex startup issue alert (5cf61b0, 2026-04-18)\n- Harden MangaDex login and refresh handling (53af09e, 2026-04-13)",
+          "minOSVersion" : "26.0",
+          "size" : 8853414,
+          "version" : "1.2"
         },
         {
-          "version": "1.2",
-          "date": "2026-04-13T13:15:43:z",
-          "localizedDescription": "# release/1.2-4\n\nChanges since release/1.2-3\n\n- 1.2 Build 4 (1470626, 2026-04-13)\n- Fix login view SDK warnings (ee0aea6, 2026-04-13)\n- Improve logged-out and login UX (f46ec77, 2026-04-13)\n- Localize remaining static download and status UI strings (5a3eb4e, 2026-04-12)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-4/Moga.ipa",
-          "size": 8841373,
-          "buildVersion": "4",
-          "minOSVersion": "26.0"
+          "buildVersion" : "4",
+          "date" : "2026-04-13T13:15:43:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2-4/Moga.ipa",
+          "localizedDescription" : "# release/1.2-4\n\nChanges since release/1.2-3\n\n- 1.2 Build 4 (1470626, 2026-04-13)\n- Fix login view SDK warnings (ee0aea6, 2026-04-13)\n- Improve logged-out and login UX (f46ec77, 2026-04-13)\n- Localize remaining static download and status UI strings (5a3eb4e, 2026-04-12)",
+          "minOSVersion" : "26.0",
+          "size" : 8841373,
+          "version" : "1.2"
         },
         {
-          "version": "1.1",
-          "date": "2026-04-04T15:20:41:z",
-          "localizedDescription": "# release/1.1-15\n\nChanges since release/1.1-13\n\n- 1.1 Build 15 (da2926a, 2026-04-04)\n- Fix About header relayout after presentation (d2d9d33, 2026-04-04)\n- Restore Profile cell highlight behavior (bb7a916, 2026-04-04)\n- Fix status view footer layout and cache components (473a6b7, 2026-04-04)\n- Move folder (3ce8c52, 2026-04-04)\n- Refactor distinct classes into separate files (a8e06ba, 2026-04-04)\n- Native status API display first pass (d2a144e, 2026-04-04)\n- Set default reader preferences for first launch (2df7a04, 2026-03-30)\n- 1.1 Build 14 (f7781e9, 2026-03-29)\n- Localize language names and fill missing UI translations (47ac65f, 2026-03-28)\n- Fix chapter read status not updating in chapters list after pull-to-advance (840ad0b, 2026-03-28)\n- Update footer sizing (049ec96, 2026-03-28)\n- Center cat footer image so it appears the same size in both scroll modes (b4d743c, 2026-03-29)\n- Show footer in horizontal paging mode; fix overscroll threshold (4b4da4e, 2026-03-29)\n- Apply content mode immediately when useAspectFitMode changes (7e5f00c, 2026-03-29)\n- Gate overscroll animation on canScrollAdvance in scrollViewDidScroll (587a11d, 2026-03-29)\n- Guard overscroll-advance state around scroll/reading direction switches (61fe3e3, 2026-03-29)\n- Hide Reading Direction in vertical mode; restore horizontal overscroll advance (38f811e, 2026-03-29)\n- Add horizontal paging mode and View Options menu to reader (0692086, 2026-03-28)\n- Reduce reader debug churn and clean up refresh timers (d3a8ce3, 2026-03-27)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-15/Moga.ipa",
-          "size": 8729920,
-          "buildVersion": "15",
-          "minOSVersion": "26.0"
+          "buildVersion" : "15",
+          "date" : "2026-04-04T15:20:41:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-15/Moga.ipa",
+          "localizedDescription" : "# release/1.1-15\n\nChanges since release/1.1-13\n\n- 1.1 Build 15 (da2926a, 2026-04-04)\n- Fix About header relayout after presentation (d2d9d33, 2026-04-04)\n- Restore Profile cell highlight behavior (bb7a916, 2026-04-04)\n- Fix status view footer layout and cache components (473a6b7, 2026-04-04)\n- Move folder (3ce8c52, 2026-04-04)\n- Refactor distinct classes into separate files (a8e06ba, 2026-04-04)\n- Native status API display first pass (d2a144e, 2026-04-04)\n- Set default reader preferences for first launch (2df7a04, 2026-03-30)\n- 1.1 Build 14 (f7781e9, 2026-03-29)\n- Localize language names and fill missing UI translations (47ac65f, 2026-03-28)\n- Fix chapter read status not updating in chapters list after pull-to-advance (840ad0b, 2026-03-28)\n- Update footer sizing (049ec96, 2026-03-28)\n- Center cat footer image so it appears the same size in both scroll modes (b4d743c, 2026-03-29)\n- Show footer in horizontal paging mode; fix overscroll threshold (4b4da4e, 2026-03-29)\n- Apply content mode immediately when useAspectFitMode changes (7e5f00c, 2026-03-29)\n- Gate overscroll animation on canScrollAdvance in scrollViewDidScroll (587a11d, 2026-03-29)\n- Guard overscroll-advance state around scroll/reading direction switches (61fe3e3, 2026-03-29)\n- Hide Reading Direction in vertical mode; restore horizontal overscroll advance (38f811e, 2026-03-29)\n- Add horizontal paging mode and View Options menu to reader (0692086, 2026-03-28)\n- Reduce reader debug churn and clean up refresh timers (d3a8ce3, 2026-03-27)",
+          "minOSVersion" : "26.0",
+          "size" : 8729920,
+          "version" : "1.1"
         },
         {
-          "version": "1.1",
-          "date": "2026-03-29T03:53:28:z",
-          "localizedDescription": "# release/1.1-14\n\nChanges since release/1.1-13\n\n- 1.1 Build 14 (259bc45, 2026-03-28)\n- Update release workflow to use Xcode 26.4 (ff194d1, 2026-03-28)\n- Localize language names and fill missing UI translations (47ac65f, 2026-03-28)\n- Fix chapter read status not updating in chapters list after pull-to-advance (840ad0b, 2026-03-28)\n- Update footer sizing (049ec96, 2026-03-28)\n- Center cat footer image so it appears the same size in both scroll modes (b4d743c, 2026-03-29)\n- Show footer in horizontal paging mode; fix overscroll threshold (4b4da4e, 2026-03-29)\n- Apply content mode immediately when useAspectFitMode changes (7e5f00c, 2026-03-29)\n- Gate overscroll animation on canScrollAdvance in scrollViewDidScroll (587a11d, 2026-03-29)\n- Guard overscroll-advance state around scroll/reading direction switches (61fe3e3, 2026-03-29)\n- Hide Reading Direction in vertical mode; restore horizontal overscroll advance (38f811e, 2026-03-29)\n- Add horizontal paging mode and View Options menu to reader (0692086, 2026-03-28)\n- Reduce reader debug churn and clean up refresh timers (d3a8ce3, 2026-03-27)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-14/Moga.ipa",
-          "size": 8708341,
-          "buildVersion": "14",
-          "minOSVersion": "26.0"
+          "buildVersion" : "14",
+          "date" : "2026-03-29T03:53:28:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-14/Moga.ipa",
+          "localizedDescription" : "# release/1.1-14\n\nChanges since release/1.1-13\n\n- 1.1 Build 14 (259bc45, 2026-03-28)\n- Update release workflow to use Xcode 26.4 (ff194d1, 2026-03-28)\n- Localize language names and fill missing UI translations (47ac65f, 2026-03-28)\n- Fix chapter read status not updating in chapters list after pull-to-advance (840ad0b, 2026-03-28)\n- Update footer sizing (049ec96, 2026-03-28)\n- Center cat footer image so it appears the same size in both scroll modes (b4d743c, 2026-03-29)\n- Show footer in horizontal paging mode; fix overscroll threshold (4b4da4e, 2026-03-29)\n- Apply content mode immediately when useAspectFitMode changes (7e5f00c, 2026-03-29)\n- Gate overscroll animation on canScrollAdvance in scrollViewDidScroll (587a11d, 2026-03-29)\n- Guard overscroll-advance state around scroll/reading direction switches (61fe3e3, 2026-03-29)\n- Hide Reading Direction in vertical mode; restore horizontal overscroll advance (38f811e, 2026-03-29)\n- Add horizontal paging mode and View Options menu to reader (0692086, 2026-03-28)\n- Reduce reader debug churn and clean up refresh timers (d3a8ce3, 2026-03-27)",
+          "minOSVersion" : "26.0",
+          "size" : 8708341,
+          "version" : "1.1"
         },
         {
-          "version": "1.1",
-          "date": "2026-03-26T23:32:55:z",
-          "localizedDescription": "# release/1.1-13\n\nChanges since release/1.1-12\n\n- 1.1 Build 13 (1d15b47, 2026-03-26)\n- Update distribution profile signing (0ec6a5f, 2026-03-26)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-13/Moga.ipa",
-          "size": 8696943,
-          "buildVersion": "13",
-          "minOSVersion": "26.0"
+          "buildVersion" : "13",
+          "date" : "2026-03-26T23:32:55:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-13/Moga.ipa",
+          "localizedDescription" : "# release/1.1-13\n\nChanges since release/1.1-12\n\n- 1.1 Build 13 (1d15b47, 2026-03-26)\n- Update distribution profile signing (0ec6a5f, 2026-03-26)",
+          "minOSVersion" : "26.0",
+          "size" : 8696943,
+          "version" : "1.1"
         },
         {
-          "version": "1.1",
-          "date": "2026-03-23T15:19:35:z",
-          "localizedDescription": "# release/1.1-10\n\nChanges since release/1.1-9\n\n- 1.1 Build 10 (091dcbe, 2026-03-23)\n- Add localized bug report confirmation alert (cde17c9, 2026-03-23)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-10/Moga.ipa",
-          "size": 8466057,
-          "buildVersion": "10",
-          "minOSVersion": "26.0"
+          "buildVersion" : "10",
+          "date" : "2026-03-23T15:19:35:z",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-10/Moga.ipa",
+          "localizedDescription" : "# release/1.1-10\n\nChanges since release/1.1-9\n\n- 1.1 Build 10 (091dcbe, 2026-03-23)\n- Add localized bug report confirmation alert (cde17c9, 2026-03-23)",
+          "minOSVersion" : "26.0",
+          "size" : 8466057,
+          "version" : "1.1"
         },
         {
-          "version": "1.0",
-          "date": "2026-02-27T17:06:00-08:00",
-          "localizedDescription": "Many UI updates and crash fixes.",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release%2Fbuild-62/Moga.ipa",
-          "size": 5300000,
-          "buildVersion": "62",
-          "minOSVersion": "26.0"
+          "buildVersion" : "62",
+          "date" : "2026-02-27T17:06:00-08:00",
+          "downloadURL" : "https://github.com/inb4ohnoes/moga-releases/releases/download/release%2Fbuild-62/Moga.ipa",
+          "localizedDescription" : "Many UI updates and crash fixes.",
+          "minOSVersion" : "26.0",
+          "size" : 5300000,
+          "version" : "1.0"
         }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
+      ]
     }
   ],
-  "news": []
+  "description" : "This is the official sideloading source for Moga, a manga reader client for MangaDex. Use this if you don't want to deal with TestFlight. ",
+  "featuredApps" : [
+    "ninja.probably.Moga"
+  ],
+  "headerURL" : "https://assets.moga.moe/source-assets/Banner.png",
+  "iconURL" : "https://assets.moga.moe/source-assets/Icon.png",
+  "name" : "Moga Source",
+  "news" : [
+
+  ],
+  "subtitle" : "Official sideloading source for Moga, a manga reader client for MangaDex",
+  "tintColor" : "#e28256",
+  "website" : "https://moga.moe"
 }
