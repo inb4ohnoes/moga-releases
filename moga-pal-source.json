@@ -2,14 +2,15 @@
   "name": "Moga PAL Source",
   "subtitle": "Official AltStore PAL source for Moga, a manga reader client for MangaDex.",
   "description": "This is the official AltStore PAL source for Moga, a manga reader client for MangaDex.",
-  "iconURL": "https://i.imgur.com/RT0MxSM.png",
+  "iconURL": "https://assets.moga.moe/source-assets/Icon.png",
+  "headerURL": "https://assets.moga.moe/source-assets/Banner.png",
   "website": "https://moga.moe",
   "fediUsername": "moga",
   "tintColor": "#e28256",
   "featuredApps": [
     "ninja.probably.Moga"
   ],
-  "headerURL": "https://i.imgur.com/0VlCk8A.png",
+  "news": [],
   "apps": [
     {
       "name": "Moga",
@@ -18,7 +19,7 @@
       "developerName": "Sophia Tung",
       "subtitle": "A thoughtfully designed MangaDex client",
       "localizedDescription": "Moga is a manga reader app built to interface with MangaDex's vast library, with usability and gesture-based UX design at its core. You can:\n\n- Read anything available in MangaDex's library directly\n- Log in to your account\n- Follow/unfollow mangas\n- See recently updated mangas you've followed\n- Easy pick-back-up shortcuts (client side)\n- Minimize/juggle two mangas at the same time (client side)\n- Set language/content preferences (client side)\n- And so on.\n\nThis app requires that you generate a private client ID if you wish to log in. See https://moga.moe for more info.",
-      "iconURL": "https://i.imgur.com/V5anTF4.png",
+      "iconURL": "https://assets.moga.moe/source-assets/Icon.png",
       "tintColor": "#e28256",
       "category": "entertainment",
       "screenshots": {
@@ -65,30 +66,29 @@
           "localizedDescription": "Version 1.2 brings offline reading, library organization, and a smoother reader experience.\n\n- Added automatic chapter downloads for manga you follow, with offline reading support\n- Added a download queue with progress tracking, cancellation, and deletion\n- Added an option to skip downloading chapters you've already read\n- Added Library sort and filter options\n- Added infinite scroll to manga search results\n- Improved pinch-to-zoom in the reader with smoother physics and better edge case handling\n- Improved logged-out state and login flow UX\n- Added a MangaDex connectivity check on startup\n- Hardened login session and token refresh handling\n- Localized more UI text across downloads and status views\n- Fixed crashes when reading or syncing read status offline\n- Fixed pinch gesture occasionally snapping in the reader\n- Fixed downloaded manga detail view transition\n- Fixed login view SDK warnings"
         },
         {
-          "downloadURL": "https://assets.moga.moe/builds/dc515d83-662f-4958-954b-f03e0dca2391/manifest.json",
-          "size": 4710652,
           "version": "1.1",
           "buildVersion": "15",
           "date": "2026-04-08T07:19:12Z",
-          "localizedDescription": "Version 1.1 is a big update focused on discovery, reading improvements, and better personalization.\n\n- Added Advanced Search, including localized search UI\n- Added full MDLists support with a dedicated tab, detail views, creation flow, and context menu actions\n- Added Home Screen widgets for latest updates and home feed content, with deep linking support\n- Added a horizontal paging mode and new reader view options\n- Improved reader controls with better expand/collapse behavior, first-launch defaults, and smoother pull-to-next interactions\n- Expanded localization across the app, including more UI text and language names\n- Refreshed several parts of the interface, including About, Profile, loading indicators, onboarding motion, and manga detail layouts\n- Improved bug reporting with in-app access and confirmation messaging\n- Fixed issues with clipboard links, chapter read status updates, MDList refreshing, widget sizing/version mismatches, and other layout and stability problems",
-          "minOSVersion": "26.0"
+          "downloadURL": "https://assets.moga.moe/builds/dc515d83-662f-4958-954b-f03e0dca2391/manifest.json",
+          "size": 4710652,
+          "minOSVersion": "26.0",
+          "localizedDescription": "Version 1.1 is a big update focused on discovery, reading improvements, and better personalization.\n\n- Added Advanced Search, including localized search UI\n- Added full MDLists support with a dedicated tab, detail views, creation flow, and context menu actions\n- Added Home Screen widgets for latest updates and home feed content, with deep linking support\n- Added a horizontal paging mode and new reader view options\n- Improved reader controls with better expand/collapse behavior, first-launch defaults, and smoother pull-to-next interactions\n- Expanded localization across the app, including more UI text and language names\n- Refreshed several parts of the interface, including About, Profile, loading indicators, onboarding motion, and manga detail layouts\n- Improved bug reporting with in-app access and confirmation messaging\n- Fixed issues with clipboard links, chapter read status updates, MDList refreshing, widget sizing/version mismatches, and other layout and stability problems"
         },
         {
-          "downloadURL": "https://assets.moga.moe/builds/116ef4e2-d3ca-449e-816a-578d19da8494/manifest.json",
-          "size": 2500000,
           "version": "1.0.1",
           "buildVersion": "5",
           "date": "2026-03-13T22:04:23Z",
-          "localizedDescription": "Version 1.0.1 adds a new first-launch onboarding flow, improves Pick Back Up with smarter resume behavior and cleaner actions, refreshes Home and welcome screen layouts for iPhone and iPad, improves content safety and localization, and fixes MangaDex parsing crashes plus several UI issues.",
-          "minOSVersion": "26.0"
+          "downloadURL": "https://assets.moga.moe/builds/116ef4e2-d3ca-449e-816a-578d19da8494/manifest.json",
+          "size": 2500000,
+          "minOSVersion": "26.0",
+          "localizedDescription": "Version 1.0.1 adds a new first-launch onboarding flow, improves Pick Back Up with smarter resume behavior and cleaner actions, refreshes Home and welcome screen layouts for iPhone and iPad, improves content safety and localization, and fixes MangaDex parsing crashes plus several UI issues."
         },
         {
-          "downloadURL": "https://assets.moga.moe/builds/a5e4d194-1e9e-4f84-b64f-84889543666a/manifest.json",
-          "size": 2300000,
           "version": "1.0",
           "buildVersion": "62",
           "date": "2026-03-08T22:18:00-07:00",
-          "localizedDescription": null,
+          "downloadURL": "https://assets.moga.moe/builds/a5e4d194-1e9e-4f84-b64f-84889543666a/manifest.json",
+          "size": 2300000,
           "minOSVersion": "26.0"
         }
       ],
@@ -97,6 +97,5 @@
         "privacy": {}
       }
     }
-  ],
-  "news": []
+  ]
 }
