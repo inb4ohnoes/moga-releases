@@ -47,6 +47,15 @@
       "versions": [
         {
           "version": "1.2.2",
+          "date": "2026-06-29T20:45:27:z",
+          "localizedDescription": "# release/1.2.2-2\n\nChanges since release/1.2.2-1\n\n- 1.2.2 Build 2 (c89badb, 2026-06-29)\n- Group library tag filter (f4298d3, 2026-06-29)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.2-2/Moga.ipa",
+          "size": 9043770,
+          "buildVersion": "2",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.2.2",
           "buildVersion": "1",
           "date": "2026-06-17T14:23:49:z",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.2-1/Moga.ipa",
@@ -62,15 +71,6 @@
           "size": 8936406,
           "minOSVersion": "26.0",
           "localizedDescription": "# release/1.2.1-3\n\nChanges since release/1.2.1-2\n\n- 1.2.1 Build 3 (b930b08, 2026-06-08)\n- Add library popularity sort (f8849e4, 2026-05-31)\n- Replace the loading pill Lottie indicator (32d2670, 2026-05-30)\n- Disable carousel auto-scroll after user interaction (63963aa, 2026-05-30)"
-        },
-        {
-          "version": "1.2.1",
-          "buildVersion": "2",
-          "date": "2026-05-24T22:59:17:z",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.1-2/Moga.ipa",
-          "size": 8930320,
-          "minOSVersion": "26.0",
-          "localizedDescription": "# release/1.2.1-2\n\nChanges since release/1.2.1-1\n\n- 1.2.1 Build 2 (b508ed3, 2026-05-24)\n- Prefer non-external chapters when starting or advancing (079bb4c, 2026-05-24)\n- Align chapter read indicator in download selection mode (7b4639e, 2026-05-24)\n- Localize chapter posted time ago label (fea11cc, 2026-05-24)\n- Scroll chapter list to current chapter (528b110, 2026-05-21)"
         },
         {
           "version": "1.2",
