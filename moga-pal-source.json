@@ -48,6 +48,14 @@
       },
       "versions": [
         {
+          "version": "1.2.2",
+          "buildVersion": "3",
+          "date": "2026-07-20T22:42:28Z",
+          "downloadURL": "https://assets.moga.moe/builds/b43465fd-66c6-4f84-aac0-6c05d5419c32/manifest.json",
+          "size": 3841837,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "1.2.1",
           "buildVersion": "3",
           "date": "2026-06-08T10:10:03-07:00",
