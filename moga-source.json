@@ -47,6 +47,15 @@
       "versions": [
         {
           "version": "1.2.3",
+          "date": "2026-07-25T23:20:58:z",
+          "localizedDescription": "# release/1.2.3-2\n\nChanges since release/1.2.3-1\n\n- 1.2.3 Build 2 (e65573c, 2026-07-25)\n- Improve random selection layout and loading (#134) (085775e, 2026-07-25)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.3-2/Moga.ipa",
+          "size": 9079633,
+          "buildVersion": "2",
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.2.3",
           "date": "2026-07-25T18:47:50:z",
           "localizedDescription": "# release/1.2.3-1\n\nChanges since release/1.2.2-3\n\n- 1.2.3 Build 3 (8ee2899, 2026-07-25)\n- Add random MangaDex picker (#133) (5785ba6, 2026-07-25)\n- Add reader zoom preference (9ad7491, 2026-07-23)\n- Support updated MangaDex uptime data markup (a72d432, 2026-07-23)\n- Add setting to hide reader paging UI (d9ee3bc, 2026-07-23)\n- Add chapter progress view to manga details (4028c97, 2026-07-23)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.3-1/Moga.ipa",
@@ -61,15 +70,6 @@
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.2-3/Moga.ipa",
           "size": 9044361,
           "buildVersion": "3",
-          "minOSVersion": "26.0"
-        },
-        {
-          "version": "1.2.2",
-          "date": "2026-06-29T20:45:27:z",
-          "localizedDescription": "# release/1.2.2-2\n\nChanges since release/1.2.2-1\n\n- 1.2.2 Build 2 (c89badb, 2026-06-29)\n- Group library tag filter (f4298d3, 2026-06-29)",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.2-2/Moga.ipa",
-          "size": 9043770,
-          "buildVersion": "2",
           "minOSVersion": "26.0"
         },
         {
