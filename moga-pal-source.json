@@ -10,7 +10,18 @@
   "featuredApps": [
     "ninja.probably.Moga"
   ],
-  "news": [],
+  "news": [
+    {
+      "title": "Moga is live on AltStore PAL!",
+      "identifier": "6EBBDD30-8296-431F-9AB7-D8C4DED4063B",
+      "caption": "It's a great day!",
+      "date": "2026-06-15T23:20:59Z",
+      "tintColor": "#e28256",
+      "imageURL": "https://assets.moga.moe/source-assets/Banner.png",
+      "url": "https://moga.moe",
+      "appID": "ninja.probably.Moga"
+    }
+  ],
   "apps": [
     {
       "name": "Moga",
