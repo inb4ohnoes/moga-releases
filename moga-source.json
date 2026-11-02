@@ -58,6 +58,15 @@
       "versions": [
         {
           "version": "1.2.3",
+          "date": "2026-11-02T11:29:27:z",
+          "localizedDescription": "# release/1.2.3-10\n\nChanges since release/1.2.3-7\n\n- 1.2.3 Build 10 (5fa5205, 2026-11-02)\n- Restore MangaDex status history from JSON endpoint (9863ee8, 2026-11-02)\n- Recreate blur backdrops when mask direction changes (cf886e7, 2026-11-02)\n- Record carousel overflow and bottom blur verification (14c4d45, 2026-11-02)\n- Extend all horizontal collection sections through reserved side space (983bbe7, 2026-11-02)\n- Choose blur axis from actual tab bar layout and refresh its mask (c0dc740, 2026-11-02)\n- Replace deprecated background submission and URL probing APIs (0c6dfed, 2026-11-02)\n- Keep asymmetric table and carousel geometry on the correct RTL edge (2089c70, 2026-11-02)\n- Extend updates carousel visually through the side bar region (cf2e183, 2026-11-02)\n- Keep profile artwork within the usable table viewport (1f1b995, 2026-11-02)\n- Bound MDLists header and cards after switching filters (058d87a, 2026-11-02)\n- Record completed Duo adaptation and device acceptance checks (8379f29, 2026-11-02)\n- Cover adaptive viewport and reader accessory regressions (9b0ca03, 2026-11-02)\n- Provide compact reader actions in narrow accessory widths (df05efa, 2026-11-02)\n- Reserve keyboard obstruction beneath search results (bd04285, 2026-11-02)\n- Adapt reader accessory and navigation actions for compact bars (2d40c84, 2026-11-02)\n- Keep onboarding and login content inside safe keyboard geometry (6455030, 2026-11-02)\n- Adapt MDLists header and create button to usable content (91b11c5, 2026-11-02)\n- Restore reader position after asynchronous image reflow (3971714, 2026-11-02)\n- Keep sampled library index labels aligned with selection targets (44eadb6, 2026-11-02)\n- Choose wide layouts from local traits and available space (38b77f5, 2026-11-02)\n- Constrain reader and manga controls to the safe viewport (bd8eb4f, 2026-11-02)\n- Preserve reader position and zoom across viewport changes (14f0e35, 2026-11-02)\n- Keep search filters inside safe and keyboard bounds (82fb7d2, 2026-11-02)\n- Build iOS releases with the Xcode 27.1 runner (4ba4d24, 2026-11-02)\n- Preserve profile content and navigation chrome during side bar layout (da8c05f, 2026-11-02)\n- Match reader page sizes to the collection viewport (0b62bdf, 2026-11-02)\n- Keep library index inside usable bounds and preserve its targets (093a0a5, 2026-11-02)\n- Keep profile and about header contents responsive to resizing (4a18eba, 2026-11-02)\n- Size feed layouts from their unobscured collection viewport (069e798, 2026-11-02)\n- Adapt tab bar blur to vertical and horizontal bars (a7798e1, 2026-11-02)\n- Raise deployment targets to iOS 27 and document Duo audit (6aa789e, 2026-11-02)\n- 1.2.3 Build 9 (9c6b00b, 2026-08-19)\n- Fix MDLists header constraints at a degenerate width (21aa575, 2026-08-19)\n- Drop the random selection card gradient (a3cfab5, 2026-08-19)\n- Let Curry Love footer resolve at a degenerate size (ae82fc7, 2026-08-19)\n- 1.2.3 Build 8 (a8edd57, 2026-08-19)\n- Update test destination to an installed simulator (0642924, 2026-08-19)\n- Guard against non-string manga descriptions (d64c923, 2026-08-19)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.3-10/Moga.ipa",
+          "size": 9375081,
+          "buildVersion": "10",
+          "minOSVersion": "27.0"
+        },
+        {
+          "version": "1.2.3",
           "date": "2026-07-30T18:59:38:z",
           "localizedDescription": "# release/1.2.3-7\n\nChanges since release/1.2.3-6\n\n- 1.2.3 Build 7 (6439613, 2026-07-30)\n- Halve Curry Love footer artwork width (051483e, 2026-07-30)",
           "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.3-7/Moga.ipa",
@@ -163,15 +172,6 @@
           "size": 8696943,
           "minOSVersion": "26.0",
           "localizedDescription": "# release/1.1-13\n\nChanges since release/1.1-12\n\n- 1.1 Build 13 (1d15b47, 2026-03-26)\n- Update distribution profile signing (0ec6a5f, 2026-03-26)"
-        },
-        {
-          "version": "1.1",
-          "buildVersion": "10",
-          "date": "2026-03-23T15:19:35:z",
-          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.1-10/Moga.ipa",
-          "size": 8466057,
-          "minOSVersion": "26.0",
-          "localizedDescription": "# release/1.1-10\n\nChanges since release/1.1-9\n\n- 1.1 Build 10 (091dcbe, 2026-03-23)\n- Add localized bug report confirmation alert (cde17c9, 2026-03-23)"
         },
         {
           "version": "1.0",
