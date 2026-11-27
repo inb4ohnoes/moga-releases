@@ -57,6 +57,15 @@
       },
       "versions": [
         {
+          "version": "1.2.5",
+          "date": "2026-11-26T22:05:46:z",
+          "localizedDescription": "# release/1.2.5-12\n\nChanges since release/1.2.4-11\n\n- Bump version to 1.2.5 build 12 (cccaa34, 2026-11-26)\n- Improve Library Updates browsing and sorting (845a50b, 2026-11-26)\n- Prevent MDLists crash during offscreen session refresh (33983ca, 2026-11-19)\n- Configure distribution signing before CI archives (99fbd12, 2026-11-06)",
+          "downloadURL": "https://github.com/inb4ohnoes/moga-releases/releases/download/release/1.2.5-12/Moga.ipa",
+          "size": 9437101,
+          "buildVersion": "12",
+          "minOSVersion": "27.0"
+        },
+        {
           "version": "1.2.4",
           "date": "2026-11-06T17:24:31:z",
           "localizedDescription": "# release/1.2.4-11\n\nChanges since release/1.2.3-10\n\n- Bump version to 1.2.4 build 11 (188c032, 2026-11-06)\n- Use automatic development signing for local device builds (7033692, 2026-11-05)\n- Animate featured carousel returns after short swipes (07fe3ba, 2026-11-05)\n- Add performative manga cover mode and fill the closed display (9da2791, 2026-11-05)\n- Add two-page book spreads to the horizontal reader on iPhone Duo (1a5a3fb, 2026-11-05)\n- Open Pick Back Up entries when read status is unavailable (e962dea, 2026-11-05)",
